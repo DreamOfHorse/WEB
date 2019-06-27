@@ -1,0 +1,55 @@
+*{
+    margin: 0px auto;
+}
+#people{
+    width: 1535px;
+    height: 792px;
+    background: url(../img/loginbg.jpg)no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#changepwd{
+    width: 700px;
+    height: 380px;
+    background-color: #B6DAD6;
+    opacity:0.5;
+    position: absolute;
+    left: 417.5px;
+    top: 250px;
+}
+#pwdonediv{
+    margin-left: 220px;
+    margin-top: 120px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+#pwdtwodiv{
+    margin-left: 220px;
+    margin-top: 25px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+#pwdtwo{
+    display: block;
+    margin-left: 110px;
+    margin-top: -20px;
+}
+#message{
+    width: 250px;
+    height: 25px;
+    color: red;
+    text-align:center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#submit{
+    width: 120px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}

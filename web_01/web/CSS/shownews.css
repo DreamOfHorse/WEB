@@ -1,0 +1,123 @@
+*{
+    margin: 0px auto;
+}
+#box{
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#3737FF), to(#F0F0FF));
+}
+#people{
+    width: 1000px;
+    background: white;
+}
+#header{
+    width: 1000px;
+    height: 250px;
+    background-image: url("../img/toppic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#menu{
+    width: 1000px;
+    height: 45px;
+    margin-top: -5px;
+    color: white;
+    background-image: url("../img/menubg.jpg");
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#22D5E3), to(#0793AA));
+}
+#menu ul li a{
+    text-decoration:none;
+    color: white;
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+#menu ul li {
+    list-style: none;
+    float: left;
+    margin-left: 100px;
+    line-height: 45px;
+}
+#column{
+    padding-left: 0px;
+}
+#menu ul li {
+    list-style: none;
+    float: left;
+    line-height: 45px;
+    font-size: large;
+}
+#search{
+    width: 200px;
+    height: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+}
+#searchtitle{
+    display: block;
+    width: 160px;
+    height: 20px;
+}
+#news{
+    width: 1000px;
+    min-height: 470px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-top: 1px dotted #AAAAAA;
+    background: #EEEEEE;
+}
+#title{
+    width: 800PX;
+    height: 60px;
+    display: block;
+    line-height: 60px;
+    border-bottom: 1px solid #AAAAAA;
+    text-align: center;
+}
+#info{
+    width: 800px;
+    height: 35px;
+    line-height: 45px;
+    margin-left: 100px;
+}
+#data{
+    float: left;
+    margin-left: 150px;
+}
+#click{
+    float: left;
+    margin-left: 100px;
+}
+#author{
+    margin-left: 600px;
+}
+#content{
+    width: 850px;
+    min-height: 500px;
+    margin-top: 10px;
+    background: white;
+    overflow: hidden;
+}
+#color{
+    width: 1000px;
+    height: 20px;
+    background: #EEEEEE;
+}
+#footer{
+    width: 1000px;
+    height: 40px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: small;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#1DD2DE), to(#0F9DB5));
+}
+#footer p {
+    line-height: 20px;
+}
+#footer a{
+    text-decoration:none;
+    color: black;
+}
+#footer a:hover{
+    color: #FF6600;
+    cursor:pointer;
+}

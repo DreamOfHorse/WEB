@@ -1,0 +1,219 @@
+@charset "UTF-8";
+*{
+    margin: 0px auto;
+}
+#people{
+    width: 100%;
+    height: 100%;
+    background: url(../img/loginbg.jpg)no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#head{
+    width: 1000px;
+    height: 250px;
+    background-image: url("../img/toppic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#box{
+    width: 1000px;
+    background-color: #B6DAD6;
+    opacity:0.8;
+}
+#header{
+    width: 1000px;
+    height: 50px;
+    position: relative;
+}
+#headerl span{
+    width: 380px;
+    height: 50px;
+    color: #52A6EF;
+    font-size: x-large;
+    line-height: 60px;
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+}
+#headerr{
+    width: 470px;
+    height: 50px;
+    position: absolute;
+    left: 480px;
+    top: 0px;
+}
+#changepwd{
+    width: 150px;
+    height: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    box-sizing: border-box;
+    background-color: #CCE2EF;
+    border: 2px dashed #00a0e9;
+    margin-top:8px ;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#exit{
+    width: 150px;
+    height: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 50px;
+    box-sizing: border-box;
+    background-color: #CCE2EF;
+    border: 2px dashed #00a0e9;
+    cursor: pointer;
+}
+#tools{
+    width: 1000px;
+    height: 60px;
+    margin-top: 10px;
+}
+#relnews{
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 150px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+    border: 2px dashed #00a0e9;
+    background-color: #CCE2EF;
+    cursor: pointer;
+}
+#muser{
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 150px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+    border: 2px dashed #00a0e9;
+    background-color: #CCE2EF;
+    cursor: pointer;
+}
+#mcolumn{
+    width: 130px;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 150px;
+    border-radius: 50%;
+    font-size: large;
+    font-weight: bold;
+    border: 2px dashed #00a0e9;
+    background-color: #CCE2EF;
+    cursor: pointer;
+}
+#main{
+    width: 1000px;
+    height: 390px;
+    margin-top: 20px;
+    position: relative;
+}
+span {
+    width: 180px;
+    height: 20px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;            /*超出部分显示为省略号*/
+    white-space:nowrap;
+}
+#content{
+    width: 1000px;
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#table_head{
+    margin-left: -90px;
+}
+#title{
+    width: 200px;
+    text-align: left;
+    font-size: large;
+}
+#data{
+    width:  140px;
+    font-size: large;
+    text-align: center;
+}
+#click{
+    width:  120px;
+    text-align: center;
+    font-size: large;
+}
+.title{
+    width: 200px;
+}
+.data{
+    width: 140px;
+    text-align: center;
+}
+.click{
+    width: 100px;
+    text-align: center;
+}
+.titlespan {
+    width: 200px;
+    height: 20px;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;            /*超出部分显示为省略号*/
+    white-space:nowrap;
+}
+.clickspan{
+    width: 120px;
+    text-align: center;
+    float: right;
+    text-overflow: ellipsis;            /*超出部分显示为省略号*/
+    white-space:nowrap;
+}
+#table_body tr td sapn{
+    color: black;
+    font-size: small;
+}
+#table_body a{
+    text-decoration:none;
+    color: black;
+    font-size: small;
+}
+#table_body a:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+#barcon{
+    display: block;
+    position: absolute;
+    top: 350px;
+    left: 380px;
+}
+#barcon li {
+    list-style: none;
+    float: left;
+    color: black;
+}
+#barcon li{
+    font-size: small;
+}
+#barcon li a{
+    text-decoration:none;
+    color: black;
+    font-size: small;
+}
+#barcon li a:hover{
+    color: #FF6600;
+    cursor: pointer;
+}
+#footer{
+    width: 1000px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#B6DAD6), to(#598FBD));
+}

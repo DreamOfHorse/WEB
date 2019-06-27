@@ -1,0 +1,52 @@
+*{
+    margin: 0px auto;
+}
+#people{
+    width: 1535px;
+    height: 792px;
+    background: url(../img/loginbg.jpg)no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#show{
+    width: 700px;
+    height: 380px;
+    background-color: #B6DAD6;
+    opacity:0.5;
+    position: absolute;
+    left: 417.5px;
+    top: 250px;
+}
+#managecolumn{
+    float: left;
+    margin-top: 100px;
+    font-weight: bold;
+}
+#addcolumn{
+    float: left;
+    margin-top: 100px;
+    font-weight: bold;
+}
+#delcolumn{
+    margin-top: 100px;
+    font-weight: bold;
+}
+#submit{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+#addsubmit{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+#delsubmit{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-top: 80px;
+    font-weight: bold;
+}

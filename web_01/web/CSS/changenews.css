@@ -1,0 +1,30 @@
+*{
+    margin: 0px auto;
+}
+#people{
+    width: 1535px;
+    height: 792px;
+    background: url(../img/loginbg.jpg)no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#changenews{
+    width: 850px;
+}
+#titlediv{
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#submit{
+     text-align: center;
+     width: 130px;
+     height: 45px;
+     font-size: x-large;
+     margin-left: 350px;
+     margin-top: 30px;
+     font-weight: bold;
+     cursor: pointer;
+     background-color: #CCE2EF;
+ }

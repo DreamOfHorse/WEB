@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <script src="../JS/managercolumn.js"></script>
+    <link rel="stylesheet" href="../CSS/managecolumn.css">
+</head>
+<body>
+<div id="people">
+    <div id="show">
+<div id="managecolumn">
+    <table>
+        <tr><td >需要修改的栏目</td><td ><select id="columnname"></select></td></tr>
+        <tr><td  colspan="2" ><br></td></tr>
+        <tr><td >新栏目名</td><td ><input id="ncolumnname" type="text"></td></tr>
+        <tr><td  colspan="2" ><br></td></tr>
+        <tr><td  colspan="2" align="center"><button id="submit">确认修改</button></td></tr>
+    </table>
+</div>
+<div id="addcolumn">
+    栏目名称<input id="addcolumnname" type="text">
+    <button id="addsubmit">确认添加</button>
+</div>
+<div id="delcolumn">
+    需要删除的栏目
+    <select id="delcolumnname">
+    </select>
+    <br>
+    <button id="delsubmit">确认删除</button>
+</div>
+    </div>
+</div>
+</body>
+</html>
